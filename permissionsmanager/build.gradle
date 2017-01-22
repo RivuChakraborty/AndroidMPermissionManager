@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
 ext {
-    PUBLISH_GROUP_ID = 'cyd.awesome.android'
-    PUBLISH_ARTIFACT_ID = 'awesome-material'
+    PUBLISH_GROUP_ID = 'com.rivuchk.mpermissionhandler'
+    PUBLISH_ARTIFACT_ID = 'permissionmanager'
     PUBLISH_VERSION = '2.0'
 }
 
