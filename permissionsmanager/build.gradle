@@ -3,7 +3,7 @@ apply plugin: 'com.android.library'
 ext {
     PUBLISH_GROUP_ID = 'com.rivuchk.mpermissionhandler'
     PUBLISH_ARTIFACT_ID = 'permissionmanager'
-    PUBLISH_VERSION = '2.0'
+    PUBLISH_VERSION = '0.2'
 }
 
 android {
@@ -13,7 +13,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 2
-        versionName "2.0"
+        versionName "0.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
