@@ -16,11 +16,14 @@ Declare gradle dependancy.
     }
 
 
-Declare a Global variable in your Activity / Fragment class
-private PermissionManager permissionManager;
-Initialise it inside onCreate() method of your Activity / Fragment.
-permissionManager = PermissionManager.createInstanceFor(this);
-Override onActivityResult and onRequestPermissionsResult methods like below
+Declare a Global variable in your `Activity` / `Fragment` class
+
+    private PermissionManager permissionManager;
+	
+Initialise it inside `onCreate()` method of your `Activity` / `Fragment`.
+
+    permissionManager = PermissionManager.createInstanceFor(this);
+    Override onActivityResult and onRequestPermissionsResult methods like below
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
@@ -76,9 +79,11 @@ This plugin now also includes **Kotlin Extension Functions**. Create instance of
 
 Enjoy Independancy from Runtime Permission Request Headache and continue with your project :). Yes Its that simple.
 
+For more information visit [rivuchk.com](http://www.rivuchk.com)
+
 License
 
-Copyright 2017 Rivu Chakraborty.
+Copyright (c) 2017 Rivu Chakraborty.
 
 Licensed under the GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007(the “License”);
 you may not use this file except in compliance with the License.
