@@ -77,7 +77,7 @@ You can also add a permissions array to the list with `addRequestPermissions(Str
 
 This plugin now also includes **Kotlin Extension Functions**. Create instance of `PermissionManager` as with just `createPermissionManagerInstance` inside any Activity and/or Fragment class.
 
-Enjoy Independancy from Runtime Permission Request Headache and continue with your project :). Yes Its that simple.
+Enjoy Independancy from Runtime Permission Request Headache and continue with your project ðŸ™. Yes Its that simple.
 
 For more information visit [rivuchk.com](http://www.rivuchk.com)
 
