@@ -38,7 +38,7 @@ public final class PermissionManager {
 
     ArrayList<String> permissions = new ArrayList<>();
     private String title = "Please Grant The Permissions";
-    private String message = "Please grant the permissions, so that we can server you better";
+    private String message = "Please grant the permissions, so that we can serve you better";
     private String toastMessage = "Go to Permissions to Grant all Permissions";
 
     private PermissionManager(Activity activity) {
@@ -212,7 +212,8 @@ public final class PermissionManager {
             //check if all permissions are granted
             boolean allgranted = false;
             for(int i=0;i<grantResults.length;i++){
-                if(grantResults[i]==PackageManager.PERMISSION_GRANTED){
+                if(ActivityCompat.checkSelfPermission(activity,
+                        permissions.get(i))==PackageManager.PERMISSION_GRANTED){
                     allgranted = true;
                 } else {
                     allgranted = false;
