@@ -6,7 +6,7 @@ With **Android 6.0 Marshmallow (API 23)**, a new runtime permission model has be
 
 I coded this plugin in a callback driven manner, i.e. it has callbacks for when user grants/denies/partially grants (grants one or few of the multiple permissions requested) the permissions. As already mentioned this plugin is backward compatible, so it’ll automatically call the callback method for permissions granted (if it is granted by the system, in the same flow as it was in pre-marshmallow) in pre-marshmallow devices.
 
-Follow the below How to Use guide to integrate this plugin with your project and forget all permission headaches 🙂
+Follow the below How to Use guide to integrate this plugin with your project and forget all permission headaches :relaxed:�
 
 Declare gradle dependancy.
 
@@ -77,7 +77,7 @@ You can also add a permissions array to the list with `addRequestPermissions(Str
 
 This plugin now also includes **Kotlin Extension Functions**. Create instance of `PermissionManager` as with just `createPermissionManagerInstance` inside any Activity and/or Fragment class.
 
-Enjoy Independancy from Runtime Permission Request Headache and continue with your project �. Yes Its that simple.
+Enjoy Independancy from Runtime Permission Request Headache and continue with your project :relaxed:. Yes Its that simple.
 
 For more information visit [rivuchk.com](http://www.rivuchk.com)
 
@@ -85,7 +85,7 @@ License
 
 Copyright (c) 2017 Rivu Chakraborty.
 
-Licensed under the GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007(the “License”);
+Licensed under the GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007(the License);
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
